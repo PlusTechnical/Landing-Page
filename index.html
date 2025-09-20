@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WineSoft - Smart Monitoring for Liquor Production</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-lang="en">
+    <header>
+      <nav class="container">
+        <a href="#" class="logo">WineSoft</a>
+        <ul class="nav-links">
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#plans" data-i18n="nav.plans">Plans</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          <li>
+            <a href="#" class="sign-in-btn" data-i18n="nav.signin">Sign In</a>
+          </li>
+          <li>
+            <button class="lang-switcher" onclick="toggleLanguage()">ES</button>
+          </li>
+        </ul>
+        <button class="mobile-menu" onclick="toggleMobileMenu()">☰</button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 data-i18n="hero.title">Smart Monitoring for Liquor Production</h1>
+          <p data-i18n="hero.subtitle">
+            Real-time control of critical parameters like temperature, humidity,
+            and pressure in fermentation, distillation, and maturation
+            processes.
+          </p>
+          <a href="#contact" class="cta-button" data-i18n="hero.cta"
+            >Get Started Today</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 data-i18n="about.title">About WineSoft</h2>
+            <p data-i18n="about.description1">
+              WineSoft is a comprehensive smart monitoring solution designed
+              specifically for liquor production facilities. Our platform
+              combines cutting-edge IoT technology with industry expertise to
+              deliver real-time insights and control.
+            </p>
+            <p data-i18n="about.description2">
+              With years of experience in industrial automation and deep
+              understanding of liquor production processes, we help distilleries
+              optimize their operations while maintaining the highest quality
+              standards.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <h3 data-i18n="about.stats.clients">50+</h3>
+                <p data-i18n="about.stats.clients_desc">Happy Clients</p>
+              </div>
+              <div class="stat-item">
+                <h3 data-i18n="about.stats.uptime">99.9%</h3>
+                <p data-i18n="about.stats.uptime_desc">System Uptime</p>
+              </div>
+              <div class="stat-item">
+                <h3 data-i18n="about.stats.efficiency">30%</h3>
+                <p data-i18n="about.stats.efficiency_desc">
+                  Efficiency Increase
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="about-visual">
+              <img
+                src="assets/about-image-winesoft.jpg"
+                alt="about-image-winesoft"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title" data-i18n="services.title">Our Services</h2>
+        <p class="section-subtitle" data-i18n="services.subtitle">
+          Comprehensive solutions for modern liquor production
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🌡️</div>
+            <h3 data-i18n="services.monitoring.title">Real-Time Monitoring</h3>
+            <p data-i18n="services.monitoring.description">
+              Monitor critical parameters like temperature, humidity, and
+              pressure across all production stages with instant alerts and
+              automated responses.
+            </p>
+            <ul class="service-features">
+              <li data-i18n="services.monitoring.feature1">
+                24/7 continuous monitoring
+              </li>
+              <li data-i18n="services.monitoring.feature2">
+                Instant alert system
+              </li>
+              <li data-i18n="services.monitoring.feature3">
+                Historical data analysis
+              </li>
+              <li data-i18n="services.monitoring.feature4">
+                Predictive analytics
+              </li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🤖</div>
+            <h3 data-i18n="services.automation.title">Smart Automation</h3>
+            <p data-i18n="services.automation.description">
+              Comprehensive automation suite including environmental controls,
+              quality management, and predictive maintenance for optimal
+              production efficiency.
+            </p>
+            <ul class="service-features">
+              <li data-i18n="services.automation.feature1">
+                Climate control automation
+              </li>
+              <li data-i18n="services.automation.feature2">
+                Quality control systems
+              </li>
+              <li data-i18n="services.automation.feature3">
+                Predictive maintenance
+              </li>
+              <li data-i18n="services.automation.feature4">
+                Process optimization
+              </li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">📊</div>
+            <h3 data-i18n="services.analytics.title">
+              Analytics & Integration
+            </h3>
+            <p data-i18n="services.analytics.description">
+              Advanced analytics, comprehensive reporting, and seamless ERP
+              integration to facilitate audits, improve decision-making, and
+              streamline operations.
+            </p>
+            <ul class="service-features">
+              <li data-i18n="services.analytics.feature1">Custom dashboards</li>
+              <li data-i18n="services.analytics.feature2">ERP integration</li>
+              <li data-i18n="services.analytics.feature3">
+                Compliance reporting
+              </li>
+              <li data-i18n="services.analytics.feature4">
+                Performance optimization
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="plans">
+      <div class="container">
+        <h2 class="section-title" data-i18n="plans.title">Choose Your Plan</h2>
+        <p class="section-subtitle" data-i18n="plans.subtitle">
+          Flexible subscription models to fit your production needs
+        </p>
+
+        <div class="plans-grid">
+          <div class="plan-card">
+            <div class="plan-header">
+              <h3 data-i18n="plans.starter.name">Starter</h3>
+              <div class="plan-price">
+                <span class="currency">$</span>
+                <span class="amount" data-i18n="plans.starter.price">29</span>
+                <span class="period" data-i18n="plans.starter.period"
+                  >/month</span
+                >
+              </div>
+              <p data-i18n="plans.starter.description">
+                Perfect for small distilleries
+              </p>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li data-i18n="plans.starter.feature1">
+                  Up to 10 monitoring points
+                </li>
+                <li data-i18n="plans.starter.feature2">
+                  Basic alerts & notifications
+                </li>
+                <li data-i18n="plans.starter.feature3">Standard reporting</li>
+                <li data-i18n="plans.starter.feature4">Email support</li>
+                <li data-i18n="plans.starter.feature5">
+                  Basic hardware included
+                </li>
+              </ul>
+            </div>
+            <a
+              href="#contact"
+              class="plan-button"
+              data-i18n="plans.starter.button"
+              >Get Started</a
+            >
+          </div>
+
+          <div class="plan-card featured">
+            <div class="plan-badge" data-i18n="plans.professional.badge">
+              Most Popular
+            </div>
+            <div class="plan-header">
+              <h3 data-i18n="plans.professional.name">Professional</h3>
+              <div class="plan-price">
+                <span class="currency">$</span>
+                <span class="amount" data-i18n="plans.professional.price"
+                  >59</span
+                >
+                <span class="period" data-i18n="plans.professional.period"
+                  >/month</span
+                >
+              </div>
+              <p data-i18n="plans.professional.description">
+                Ideal for medium production facilities
+              </p>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li data-i18n="plans.professional.feature1">
+                  Up to 50 monitoring points
+                </li>
+                <li data-i18n="plans.professional.feature2">
+                  Advanced alerts & automation
+                </li>
+                <li data-i18n="plans.professional.feature3">
+                  Custom dashboards
+                </li>
+                <li data-i18n="plans.professional.feature4">
+                  Priority support
+                </li>
+                <li data-i18n="plans.professional.feature5">
+                  Advanced hardware package
+                </li>
+                <li data-i18n="plans.professional.feature6">ERP integration</li>
+              </ul>
+            </div>
+            <a
+              href="#contact"
+              class="plan-button featured"
+              data-i18n="plans.professional.button"
+              >Get Started</a
+            >
+          </div>
+
+          <div class="plan-card">
+            <div class="plan-header">
+              <h3 data-i18n="plans.enterprise.name">Enterprise</h3>
+              <div class="plan-price">
+                <span class="currency">$</span>
+                <span class="amount" data-i18n="plans.enterprise.price"
+                  >129</span
+                >
+                <span class="period" data-i18n="plans.enterprise.period"
+                  >/month</span
+                >
+              </div>
+              <p data-i18n="plans.enterprise.description">
+                For large-scale operations
+              </p>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li data-i18n="plans.enterprise.feature1">
+                  Unlimited monitoring points
+                </li>
+                <li data-i18n="plans.enterprise.feature2">
+                  Full automation suite
+                </li>
+                <li data-i18n="plans.enterprise.feature3">
+                  Advanced analytics
+                </li>
+                <li data-i18n="plans.enterprise.feature4">
+                  24/7 dedicated support
+                </li>
+                <li data-i18n="plans.enterprise.feature5">
+                  Premium hardware package
+                </li>
+                <li data-i18n="plans.enterprise.feature6">
+                  Custom integrations
+                </li>
+                <li data-i18n="plans.enterprise.feature7">
+                  On-site consultation
+                </li>
+              </ul>
+            </div>
+            <a
+              href="#contact"
+              class="plan-button"
+              data-i18n="plans.enterprise.button"
+              >Contact Sales</a
+            >
+          </div>
+        </div>
+
+        <div class="plans-note">
+          <p data-i18n="plans.note">
+            All plans include specialized hardware, installation, training, and
+            ongoing support. Custom solutions available for unique requirements.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-content">
+          <h2 data-i18n="contact.title">Ready to Transform Your Production?</h2>
+          <p data-i18n="contact.subtitle">
+            Contact us today to learn how WineSoft can optimize your liquor
+            production processes.
+          </p>
+
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h3 data-i18n="contact.info.title">Get in Touch</h3>
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-details">
+                  <h4 data-i18n="contact.info.email.title">Email</h4>
+                  <p>info@winesoft.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-details">
+                  <h4 data-i18n="contact.info.phone.title">Phone</h4>
+                  <p>+1 (555) 123-4567</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-details">
+                  <h4 data-i18n="contact.info.address.title">Address</h4>
+                  <p data-i18n="contact.info.address.text">
+                    123 Industrial Ave, Tech City, TC 12345
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  data-i18n-placeholder="contact.form.name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  data-i18n-placeholder="contact.form.email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="company"
+                  data-i18n-placeholder="contact.form.company"
+                  placeholder="Company"
+                  required
+                />
+                <input
+                  type="tel"
+                  name="phone"
+                  data-i18n-placeholder="contact.form.phone"
+                  placeholder="Phone"
+                  required
+                />
+              </div>
+              <select name="plan" required>
+                <option value="" data-i18n="contact.form.plan_select">
+                  Select a plan
+                </option>
+                <option value="starter" data-i18n="contact.form.plan_starter">
+                  Starter Plan
+                </option>
+                <option
+                  value="professional"
+                  data-i18n="contact.form.plan_professional"
+                >
+                  Professional Plan
+                </option>
+                <option
+                  value="enterprise"
+                  data-i18n="contact.form.plan_enterprise"
+                >
+                  Enterprise Plan
+                </option>
+                <option value="custom" data-i18n="contact.form.plan_custom">
+                  Custom Solution
+                </option>
+              </select>
+              <textarea
+                name="message"
+                data-i18n-placeholder="contact.form.message"
+                placeholder="Message"
+                required
+              ></textarea>
+              <button
+                type="submit"
+                class="cta-button"
+                data-i18n="contact.form.submit"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3 class="logo">WineSoft</h3>
+            <p data-i18n="footer.description">
+              Smart monitoring solutions for the liquor production industry.
+              Optimizing quality, efficiency, and compliance.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="LinkedIn">💼</a>
+              <a href="#" aria-label="Twitter">🐦</a>
+              <a href="#" aria-label="Facebook">📘</a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4 data-i18n="footer.services.title">Services</h4>
+            <ul>
+              <li>
+                <a href="#services" data-i18n="footer.services.monitoring"
+                  >Real-Time Monitoring</a
+                >
+              </li>
+              <li>
+                <a href="#services" data-i18n="footer.services.maintenance"
+                  >Digital Maintenance</a
+                >
+              </li>
+              <li>
+                <a href="#services" data-i18n="footer.services.quality"
+                  >Quality Control</a
+                >
+              </li>
+              <li>
+                <a href="#services" data-i18n="footer.services.automation"
+                  >Automation</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4 data-i18n="footer.company.title">Company</h4>
+            <ul>
+              <li>
+                <a href="#about" data-i18n="footer.company.about">About Us</a>
+              </li>
+              <li>
+                <a href="#plans" data-i18n="footer.company.pricing">Pricing</a>
+              </li>
+              <li>
+                <a href="#contact" data-i18n="footer.company.contact"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="#" data-i18n="footer.company.support">Support</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4 data-i18n="footer.contact.title">Contact Info</h4>
+            <ul>
+              <li>📧 info@winesoft.com</li>
+              <li>📞 +1 (555) 123-4567</li>
+              <li data-i18n="footer.contact.address">
+                📍 123 Industrial Ave, Tech City
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 WineSoft.
+            <span data-i18n="footer.rights">All rights reserved.</span>
+          </p>
+          <div class="footer-links">
+            <a href="#" data-i18n="footer.links.privacy">Privacy Policy</a>
+            <a href="#" data-i18n="footer.links.terms">Terms of Service</a>
+            <a href="#" data-i18n="footer.links.cookies">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
