@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "plans": "Plans",
+    "contact": "Contact",
+    "signin": "Sign In"
+  },
+  "hero": {
+    "title": "Smart Monitoring for Liquor Production",
+    "subtitle": "Real-time control of critical parameters like temperature, humidity, and pressure in fermentation, distillation, and maturation processes.",
+    "cta": "Get Started Today"
+  },
+  "about": {
+    "title": "About WineSoft",
+    "description1": "WineSoft is a comprehensive smart monitoring solution designed specifically for liquor production facilities. Our platform combines cutting-edge IoT technology with industry expertise to deliver real-time insights and control.",
+    "description2": "With years of experience in industrial automation and deep understanding of liquor production processes, we help distilleries optimize their operations while maintaining the highest quality standards.",
+    "stats": {
+      "clients": "50+",
+      "clients_desc": "Happy Clients",
+      "uptime": "99.9%",
+      "uptime_desc": "System Uptime",
+      "efficiency": "30%",
+      "efficiency_desc": "Efficiency Increase"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for modern liquor production",
+    "monitoring": {
+      "title": "Real-Time Monitoring",
+      "description": "Monitor critical parameters like temperature, humidity, and pressure across all production stages with instant alerts and automated responses.",
+      "feature1": "24/7 continuous monitoring",
+      "feature2": "Instant alert system",
+      "feature3": "Historical data analysis",
+      "feature4": "Predictive analytics"
+    },
+    "automation": {
+      "title": "Smart Automation",
+      "description": "Comprehensive automation suite including environmental controls, quality management, and predictive maintenance for optimal production efficiency.",
+      "feature1": "Climate control automation",
+      "feature2": "Quality control systems",
+      "feature3": "Predictive maintenance",
+      "feature4": "Process optimization"
+    },
+    "analytics": {
+      "title": "Analytics & Integration",
+      "description": "Advanced analytics, comprehensive reporting, and seamless ERP integration to facilitate audits, improve decision-making, and streamline operations.",
+      "feature1": "Custom dashboards",
+      "feature2": "ERP integration",
+      "feature3": "Compliance reporting",
+      "feature4": "Performance optimization"
+    }
+  },
+  "plans": {
+    "title": "Choose Your Plan",
+    "subtitle": "Flexible subscription models to fit your production needs",
+    "starter": {
+      "name": "Starter",
+      "price": "29",
+      "period": "/month",
+      "description": "Perfect for small distilleries",
+      "feature1": "Up to 10 monitoring points",
+      "feature2": "Basic alerts & notifications",
+      "feature3": "Standard reporting",
+      "feature4": "Email support",
+      "feature5": "Basic hardware included",
+      "button": "Get Started"
+    },
+    "professional": {
+      "name": "Professional",
+      "badge": "Most Popular",
+      "price": "59",
+      "period": "/month",
+      "description": "Ideal for medium production facilities",
+      "feature1": "Up to 50 monitoring points",
+      "feature2": "Advanced alerts & automation",
+      "feature3": "Custom dashboards",
+      "feature4": "Priority support",
+      "feature5": "Advanced hardware package",
+      "feature6": "ERP integration",
+      "button": "Get Started"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "129",
+      "period": "/month",
+      "description": "For large-scale operations",
+      "feature1": "Unlimited monitoring points",
+      "feature2": "Full automation suite",
+      "feature3": "Advanced analytics",
+      "feature4": "24/7 dedicated support",
+      "feature5": "Premium hardware package",
+      "feature6": "Custom integrations",
+      "feature7": "On-site consultation",
+      "button": "Contact Sales"
+    },
+    "note": "All plans include specialized hardware, installation, training, and ongoing support. Custom solutions available for unique requirements."
+  },
+  "contact": {
+    "title": "Ready to Transform Your Production?",
+    "subtitle": "Contact us today to learn how WineSoft can optimize your liquor production processes.",
+    "info": {
+      "title": "Get in Touch",
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "address": {
+        "title": "Address",
+        "text": "123 Industrial Ave, Tech City, TC 12345"
+      }
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone",
+      "plan_select": "Select a plan",
+      "plan_starter": "Starter Plan",
+      "plan_professional": "Professional Plan",
+      "plan_enterprise": "Enterprise Plan",
+      "plan_custom": "Custom Solution",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Thank you for your message! We'll get back to you soon."
+    }
+  },
+  "footer": {
+    "description": "Smart monitoring solutions for the liquor production industry. Optimizing quality, efficiency, and compliance.",
+    "services": {
+      "title": "Services",
+      "monitoring": "Real-Time Monitoring",
+      "maintenance": "Digital Maintenance",
+      "quality": "Quality Control",
+      "automation": "Automation"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "support": "Support"
+    },
+    "contact": {
+      "title": "Contact Info",
+      "address": "123 Industrial Ave, Tech City"
+    },
+    "rights": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    }
+  }
+}

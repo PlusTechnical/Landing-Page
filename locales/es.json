@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "services": "Servicios",
+    "plans": "Planes",
+    "contact": "Contacto",
+    "signin": "Iniciar Sesión"
+  },
+  "hero": {
+    "title": "Monitoreo Inteligente para Producción de Licores",
+    "subtitle": "Control en tiempo real de parámetros críticos como temperatura, humedad y presión en procesos de fermentación, destilación y maduración.",
+    "cta": "Comenzar Hoy"
+  },
+  "about": {
+    "title": "Acerca de WineSoft",
+    "description1": "WineSoft es una solución integral de monitoreo inteligente diseñada específicamente para plantas de producción de licores. Nuestra plataforma combina tecnología IoT de vanguardia con experiencia industrial para brindar información y control en tiempo real.",
+    "description2": "Con años de experiencia en automatización industrial y un profundo entendimiento de los procesos de producción de licores, ayudamos a las destilerías a optimizar sus operaciones mientras mantienen los más altos estándares de calidad.",
+    "stats": {
+      "clients": "50+",
+      "clients_desc": "Clientes Satisfechos",
+      "uptime": "99.9%",
+      "uptime_desc": "Tiempo de Actividad",
+      "efficiency": "30%",
+      "efficiency_desc": "Aumento de Eficiencia"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales para la producción moderna de licores",
+    "monitoring": {
+      "title": "Monitoreo en Tiempo Real",
+      "description": "Monitorea parámetros críticos como temperatura, humedad y presión en todas las etapas de producción con alertas instantáneas y respuestas automatizadas.",
+      "feature1": "Monitoreo continuo 24/7",
+      "feature2": "Sistema de alertas instantáneas",
+      "feature3": "Análisis de datos históricos",
+      "feature4": "Análisis predictivo"
+    },
+    "automation": {
+      "title": "Automatización Inteligente",
+      "description": "Suite integral de automatización que incluye controles ambientales, gestión de calidad y mantenimiento predictivo para una eficiencia de producción óptima.",
+      "feature1": "Automatización de control climático",
+      "feature2": "Sistemas de control de calidad",
+      "feature3": "Mantenimiento predictivo",
+      "feature4": "Optimización de procesos"
+    },
+    "analytics": {
+      "title": "Análisis e Integración",
+      "description": "Análisis avanzados, informes integrales e integración perfecta con ERP para facilitar auditorías, mejorar la toma de decisiones y optimizar operaciones.",
+      "feature1": "Tableros personalizados",
+      "feature2": "Integración ERP",
+      "feature3": "Informes de cumplimiento",
+      "feature4": "Optimización de rendimiento"
+    }
+  },
+  "plans": {
+    "title": "Elige Tu Plan",
+    "subtitle": "Modelos de suscripción flexibles para adaptarse a tus necesidades de producción",
+    "starter": {
+      "name": "Inicial",
+      "price": "29",
+      "period": "/mes",
+      "description": "Perfecto para destilerías pequeñas",
+      "feature1": "Hasta 10 puntos de monitoreo",
+      "feature2": "Alertas básicas y notificaciones",
+      "feature3": "Informes estándar",
+      "feature4": "Soporte por email",
+      "feature5": "Hardware básico incluido",
+      "button": "Comenzar"
+    },
+    "professional": {
+      "name": "Profesional",
+      "badge": "Más Popular",
+      "price": "59",
+      "period": "/mes",
+      "description": "Ideal para instalaciones de producción mediana",
+      "feature1": "Hasta 50 puntos de monitoreo",
+      "feature2": "Alertas avanzadas y automatización",
+      "feature3": "Tableros personalizados",
+      "feature4": "Soporte prioritario",
+      "feature5": "Paquete de hardware avanzado",
+      "feature6": "Integración ERP",
+      "button": "Comenzar"
+    },
+    "enterprise": {
+      "name": "Empresarial",
+      "price": "129",
+      "period": "/mes",
+      "description": "Para operaciones de gran escala",
+      "feature1": "Puntos de monitoreo ilimitados",
+      "feature2": "Suite completa de automatización",
+      "feature3": "Análisis avanzados",
+      "feature4": "Soporte dedicado 24/7",
+      "feature5": "Paquete de hardware premium",
+      "feature6": "Integraciones personalizadas",
+      "feature7": "Consultoría en sitio",
+      "button": "Contactar Ventas"
+    },
+    "note": "Todos los planes incluyen hardware especializado, instalación, capacitación y soporte continuo. Soluciones personalizadas disponibles para requisitos únicos."
+  },
+  "contact": {
+    "title": "¿Listo para Transformar Tu Producción?",
+    "subtitle": "Contáctanos hoy para conocer cómo WineSoft puede optimizar tus procesos de producción de licores.",
+    "info": {
+      "title": "Ponte en Contacto",
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Teléfono"
+      },
+      "address": {
+        "title": "Dirección",
+        "text": "123 Avenida Industrial, Ciudad Tech, TC 12345"
+      }
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "company": "Empresa",
+      "phone": "Teléfono",
+      "plan_select": "Selecciona un plan",
+      "plan_starter": "Plan Inicial",
+      "plan_professional": "Plan Profesional",
+      "plan_enterprise": "Plan Empresarial",
+      "plan_custom": "Solución Personalizada",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "¡Gracias por tu mensaje! Te responderemos pronto."
+    }
+  },
+  "footer": {
+    "description": "Soluciones de monitoreo inteligente para la industria de producción de licores. Optimizando calidad, eficiencia y cumplimiento normativo.",
+    "services": {
+      "title": "Servicios",
+      "monitoring": "Monitoreo en Tiempo Real",
+      "maintenance": "Mantenimiento Digital",
+      "quality": "Control de Calidad",
+      "automation": "Automatización"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Acerca de Nosotros",
+      "pricing": "Precios",
+      "contact": "Contacto",
+      "support": "Soporte"
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "address": "123 Avenida Industrial, Ciudad Tech"
+    },
+    "rights": "Todos los derechos reservados.",
+    "links": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies"
+    }
+  }
+}
